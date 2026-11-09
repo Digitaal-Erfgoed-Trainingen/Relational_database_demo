@@ -1,0 +1,13 @@
+﻿gebouwnaam_glasobject;gebouw_id;gebouwnaam_parent;aantal_glasobjecten;methode;toelichting
+St Bavo (Haarlem);A0001;St Bavo (Haarlem);2;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Voormalig stadhuis (Kamerik);A0002;Voormalig stadhuis (Kamerik);6;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Scheepvaarthuis (Amsterdam);A0003;Scheepvaarthuis (Amsterdam);5;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Hervormde kerk (Nieuwer ter Aa);A0004;Hervormde kerk (Nieuwer ter Aa);4;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Sint Petrus (Uden);A0005;Sint Petrus (Uden);36;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Nieuwe Kerk (Amsterdam);A0006;Nieuwe Kerk (Amsterdam);1;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+St Servaas (Maastricht);G0005;St Servaas basiliek (Maastricht);23;naamsvariant;Voorstel: St Servaas (Maastricht) gekoppeld aan St Servaas basiliek (Maastricht), op basis van de naamsvariant, dezelfde plaats en nabijgelegen afgeleide coördinaten. Nog inhoudelijk te bevestigen.
+Broerenkerk (Zwolle);G1233;Broerenkerk (Zwolle);1;naam_en_adres;Gebouwnaam en adres komen exact overeen met het gebouwenbestand.
+Woonhuis;A0007;Woonhuis;1;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Loods 21-a-8;A0008;Loods 21-a-8;1;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+Koningshof Veldhoven;A0009;Koningshof Veldhoven;1;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
+D132;A0010;D132;1;afgeleid_gebouw;"Voorlopig gebouwrecord afgeleid uit de gebouwverwijzing in het glasobjectenbestand; geen eenduidige overeenkomst vastgesteld in het gebouwenbestand."
