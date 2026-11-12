@@ -1,55 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#201335">
-  <meta name="description" content="Verken historisch glas en ontdek hoe gebouwen en glasobjecten samen een relationele database vormen. Een educatieve toepassing voor bouwhistorie.">
-  <title>Gebouwen · Glas in gebouwen</title>
-  <link rel="icon" href="assets/beeldmerk.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/style.css">
-  <script src="data/dataset.js" defer></script>
-  <script src="assets/app.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#201335">
+<title>Glas in gebouwen</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="#main" class="skip-link">Direct naar de inhoud</a>
-  <header class="site-header">
-    <a class="brand" href="#gebouwen" aria-label="Glas in gebouwen, naar gebouwen">
-      <img src="assets/beeldmerk.svg" alt="" width="42" height="52">
-      <span><strong>Glas in gebouwen</strong><small>Dataorganisatie voor bouwhistorie</small></span>
-    </a>
-    <div class="header-right"><span class="education-tag">Educatieve collectie</span><a class="course-link" href="https://digitaal-erfgoed-trainingen.github.io/Dataorganisatie_spreadsheets_bouwhistorie/index.html" target="_blank" rel="noopener">Naar de cursus <span aria-hidden="true">↗</span></a></div>
-  </header>
-  <div class="app-layout">
-    <aside class="sidebar">
-      <p class="nav-label">VERKEN DE COLLECTIE</p>
-      <nav aria-label="Hoofdnavigatie">
-        <a href="#gebouwen" data-nav="gebouwen"><span data-icon="building"></span><span>Gebouwen</span><span class="nav-count" id="nav-b-count"></span></a>
-        <a href="#glasobjecten" data-nav="glasobjecten"><span data-icon="glass"></span><span>Glasobjecten</span><span class="nav-count" id="nav-o-count"></span></a>
-      </nav>
-      <p class="nav-label second-label">ONTDEK DE SAMENHANG</p>
-      <nav aria-label="Uitleg en bronnen">
-        <a href="#relaties" data-nav="relaties"><span data-icon="relation"></span><span>Hoe werkt de relatie?</span></a>
-        <a href="#verantwoording" data-nav="verantwoording"><span data-icon="info"></span><span>Over de gegevens</span></a>
-      </nav>
-      <div class="sidebar-lesson">
-        <span class="lesson-number">1 <span aria-hidden="true">→</span> n</span>
-        <strong>Eén gebouw.<br>Meerdere glasobjecten.</strong>
-        <p>Ontdek hoe een sleutel twee tabellen met elkaar verbindt.</p>
-        <a href="#relaties">Bekijk het voorbeeld <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="sidebar-bottom"><span class="small-dot"></span> Leren met echte brongegevens</div>
-    </aside>
-    <main id="main" tabindex="-1"><noscript>Schakel JavaScript in om de tabellen, koppelingen en kaart te gebruiken.</noscript></main>
+<a class="skip" href="#main">Direct naar de inhoud</a>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/objecten"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect x="2" y="2" width="14" height="14" rx="3" fill="#c9b8f5"/><rect x="18" y="2" width="14" height="14" rx="3" fill="#8f6fe0"/><rect x="2" y="18" width="14" height="14" rx="3" fill="#8f6fe0"/><rect x="18" y="18" width="14" height="14" rx="3" fill="#f2c14e"/></svg><span><b>Glas in gebouwen</b><small>Dataorganisatie voor bouwhistorie</small></span></a>
+    <nav id="nav" aria-label="Collectie"><a href="#/gebouwen" data-r="gebouwen">Gebouwen</a><a href="#/objecten" data-r="objecten">Glasobjecten</a></nav>
   </div>
-  <footer class="site-footer"><span>Glas in gebouwen · Een oefenomgeving voor relationele data</span><a href="#verantwoording">Bronnen en bewerkingen</a></footer>
-  <dialog id="map-dialog" class="map-dialog" aria-labelledby="map-title">
-    <div class="dialog-header"><div><p class="eyebrow">RUIMTELIJK OVERZICHT</p><h2 id="map-title">Gebouwen op de kaart</h2></div><button class="icon-button" id="close-map" aria-label="Kaart sluiten">×</button></div>
-    <p id="map-summary" class="map-summary" aria-live="polite"></p>
-    <div id="map" aria-label="Interactieve kaart van de geselecteerde gebouwen"></div>
-    <div class="map-footer"><span><i class="legend-dot"></i> Uit gebouwenbestand</span><span><i class="legend-dot derived-dot"></i> Voorlopig gebouw</span><span>Getal = gekoppelde glasobjecten in deze selectie</span><button class="text-button" id="fit-map">Toon hele selectie</button></div>
-    <p class="map-caution" id="map-note">Indicatieve locaties: de decimaalpositie is afgeleid uit de broncoördinaten en niet geografisch geverifieerd. Glasobjecten worden hier bij hun gebouw gegroepeerd.</p>
-    <p class="map-caution" id="map-network" hidden>De achtergrondkaart kon niet worden geladen. De gebouwen blijven aanklikbaar; voor de achtergrond is internet nodig.</p>
-  </dialog>
+</header>
+<main id="main"></main>
+<footer>Glas in gebouwen · Een oefenomgeving voor relationele data · 1 gebouw → n glasobjecten</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
